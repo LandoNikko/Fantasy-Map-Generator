@@ -972,6 +972,21 @@
             color: var(--text-primary);
         }
 
+        .demo-banner {
+            position: fixed;
+            top: 1rem;
+            right: 1rem;
+            color: var(--text-primary);
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            display: block;
+            text-align: center;
+            z-index: 10001;
+            text-decoration: none;
+        }
+
         .panel-wrapper.collapsed #hide-panel-btn {
             display: none !important;
         }
@@ -998,6 +1013,13 @@
         <i class="ri-information-line"></i>
         <span id="tooltipText"></span>
     </div>
+
+    <a href="https://github.com/LandoNikko/Fantasy-Map-Generator" target="_blank" class="demo-banner">
+        <span>This is a prototype demo</span>
+        <br>
+        <i class="ri-github-fill"></i>
+        <span>GitHub</span>
+    </a>
 
     <div class="panel-wrapper" id="control-panel">
         <div class="drag-handle" id="drag-handle">
