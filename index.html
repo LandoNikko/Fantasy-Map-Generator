@@ -1711,7 +1711,7 @@
             "This is a very long tooltip designed to provide more context about the feature, helping you to better understand it and, hopefully, use it more effectively.",
         ];
         
-        let tooltipsEnabled = localStorage.getItem('tooltipsEnabled') !== 'false'; // Default to true, but respect stored preference
+        let tooltipsEnabled = localStorage.getItem('tooltipsEnabled') === 'true'; // Default to false, but respect stored preference
         let isLayerSortedByActive = false;
         let isDragging = false;
         let draggedElement = null;
